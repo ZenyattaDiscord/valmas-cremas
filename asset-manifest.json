@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/valmas-cremas/static/js/main.cb231647.js",
+    "static/js/787.92ace909.chunk.js": "/valmas-cremas/static/js/787.92ace909.chunk.js",
+    "static/media/cocoCropped.png": "/valmas-cremas/static/media/cocoCropped.0cdd9d91b390f3e09f84.png",
+    "static/media/valmas-logo.png": "/valmas-cremas/static/media/valmas-logo.51baaf3339749f8ff9ad.png",
+    "static/media/aboutBanner.jpg": "/valmas-cremas/static/media/aboutBanner.27ff44805940b4e13c13.jpg",
+    "static/media/rum-pour.jpg": "/valmas-cremas/static/media/rum-pour.795afc48fc98f8dfdcb0.jpg",
+    "static/media/cocoPour.jpg": "/valmas-cremas/static/media/cocoPour.aed1d8961984694a1812.jpg",
+    "static/media/banner.jpg": "/valmas-cremas/static/media/banner.8932e7d89543959a8c40.jpg",
+    "static/media/cropped-dark.jpg": "/valmas-cremas/static/media/cropped-dark.36d029f3c7d50309cf3c.jpg",
+    "static/media/almond.jpeg": "/valmas-cremas/static/media/almond.27083da6de9005bf16df.jpeg",
+    "static/media/coffee.jpeg": "/valmas-cremas/static/media/coffee.4f2ddc5c0b87197417e8.jpeg",
+    "static/media/chocolate.jpeg": "/valmas-cremas/static/media/chocolate.81e498a25da0f1891bda.jpeg",
+    "static/media/coconut2.jpeg": "/valmas-cremas/static/media/coconut2.0510381a83677aed0989.jpeg",
+    "static/media/sig.png": "/valmas-cremas/static/media/sig.5b335cfe576b51744c9c.png",
+    "index.html": "/valmas-cremas/index.html",
+    "main.cb231647.js.map": "/valmas-cremas/static/js/main.cb231647.js.map",
+    "787.92ace909.chunk.js.map": "/valmas-cremas/static/js/787.92ace909.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cb231647.js"
+  ]
+}
