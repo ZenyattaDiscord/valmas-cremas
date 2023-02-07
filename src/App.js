@@ -5,6 +5,7 @@ import GlobalStyle from "./GlobalStyles";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import ActualAbout from "./components/ActualAbout";
+import Contact from "./components/Contact";
 import {AnimatePresence} from 'framer-motion';
 
 
@@ -18,6 +19,7 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" exact element={<AboutPage/>} />
           <Route path="/about" exact element={<ActualAbout/>} />
+          <Route path='/contact' exact element={<Contact />} />
 
         </Routes>
       </AnimatePresence>

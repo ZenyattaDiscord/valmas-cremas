@@ -14,7 +14,8 @@ function Nav(){
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/about'>About</Link></li>
                 <li><Link to='/'>Where To Buy</Link></li>
-                <li><Link to='/'>Buy Online</Link></li>
+                <li><Link to={{pathname: "https://blurack.com/valmas-cremas"}} target="_blank">Buy Online</Link></li>
+                <li><Link to='/contact'>Contact</Link></li>
                 <li><Link to='/'>Cremas</Link></li>
                 <li><Link to='/'>Media</Link></li>
 
