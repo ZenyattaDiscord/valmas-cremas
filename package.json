@@ -2,7 +2,7 @@
   "name": "valmas-cremas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ZenyattaDiscord.github.io/",
+  "homepage": "https://ZenyattaDiscord.github.io/valmas-cremas",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
