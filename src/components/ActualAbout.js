@@ -4,7 +4,7 @@ import { AboutDiv, Statement, PhotoCard, Line } from "./AboutPage";
 import sig from '../img/sig.png';
 import banner from '../img/aboutBanner.jpg';
 import cocoPour from '../img/cocoPour.jpg';
-import { pageAnimation } from "../Animations";
+import { pageAnimation, fade } from "../Animations";
 import {motion} from "framer-motion";
 
 function ActualAbout(){
@@ -12,14 +12,14 @@ function ActualAbout(){
     return(
         <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show">
  
-        <Cover/>
-        
-        <AboutText>
-            <div className="about">
-                <h1>ABOUT</h1>
-                <h3>Home   |   About</h3>
-            </div>
-        </AboutText>
+        <Cover>
+            <AboutText>
+                <motion.div className="about" variants={fade} initial="hidden" animate="show" transition={{delay: 1}}>
+                    <h1>ABOUT</h1>
+                    <h3>Home   |   About</h3>
+                </motion.div>
+            </AboutText>
+        </Cover>
         <AboutDiv style={{marginTop: "5rem", marginBottom: "3rem"}}>
             <Statement>
                 <h3>WELCOME TO</h3>
@@ -47,34 +47,35 @@ function ActualAbout(){
     );
 }
 
-const Cover = styled.div`
+export const Cover = styled.div`
     height: 70vh;
     width:100%;
     background-image: url(${banner});
     background-size: cover;
     background-position: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    display: flex;
     color: white;
     margin: auto;
     opacity: 80%;
 `;
-const AboutText = styled.div`
-    height: 35vh;
+
+export const AboutText = styled.div`
     width: 100%;
-    position: absolute;
-    top: 30%;
     color: white;
     justify-content: center;
     text-align: center;
     margin: auto;
     h1{
         font-size: 6rem;
+        letter-spacing: 0.5rem;
     }
     h3{
         margin-top: 2rem;
     }
     
-`
+`;
 
 export default ActualAbout;

@@ -78,6 +78,11 @@ export const AboutDiv = styled.div`
     background: white;
     display: flex;
     margin-top: 0rem;
+    @media(max-width: 1300px){
+            font-size: 75%;
+            display: block;
+            
+        }
 `;
 
 

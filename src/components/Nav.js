@@ -28,11 +28,13 @@ function Nav(){
 const StyledNav = styled.div`
     height: 12vh;
     width: 100vw;
-    position: sticky;
+    position: fixed;
+    top: 0; 
     background-color: grey;
-    opacity: 90%;
+    opacity: 100%;
     display: flex;
-    margin-bottom: 0;
+    margin-bottom: 10rem;
+    z-index: 2;
     justify-content: space-between;
     background-image: url(${banner});
     object-fit: cover;

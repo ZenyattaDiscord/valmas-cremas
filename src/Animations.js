@@ -9,7 +9,7 @@ export const pageAnimation = {
         transition:{
             duration: 0.75,
             when: "beforeChildren",
-            staggerChildren: 0.25
+            staggerChildren: 0.5
         },
         
     },
@@ -20,3 +20,17 @@ export const pageAnimation = {
         }
     }
 };
+
+export const fade = {
+    hidden: {
+        opacity: 0,
+        scale: 1.2,
+    },
+    show: {
+        opacity: 1,
+        scale: 1,
+        transition: {
+            duration: 1,
+        }
+    },
+}

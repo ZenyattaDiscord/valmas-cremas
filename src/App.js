@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import ActualAbout from "./components/ActualAbout";
 import Contact from "./components/Contact";
 import {AnimatePresence} from 'framer-motion';
+import ScrollTop from "./components/ScrollTop";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/contact' exact element={<Contact />} />
 
         </Routes>
+      <ScrollTop/>
       </AnimatePresence>
       <Footer/>
     </div>

@@ -9,16 +9,23 @@ const GlobalStyle = createGlobalStyle`
     html{
         @media(max-width: 1300px){
             font-size: 75%;
+            display: block;
+            
         }
         font-family: 'Montserrat', sans-serif;
         font-weight: normal;
 
     }
     body{
+        margin-top: 10vh;
         background: #1b1b1b;
         font-family: 'Vidaloka', serif;
         overflow-x: hidden;
         background-color: white;
+        @media(max-width: 1300px){
+            font-size: 75%;
+            display: block;
+        }
 
         
     }
@@ -45,6 +52,7 @@ const GlobalStyle = createGlobalStyle`
         border: none;
         color: white;
         font-family: 'Montserrat', sans-serif;
+        margin-bottom: 2rem;
 
         transition: all 0.5s ease;
         &:hover{
