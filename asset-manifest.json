@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/valmas-cremas/static/js/main.520cca1d.js",
+    "main.js": "/valmas-cremas/static/js/main.8f82cd0f.js",
     "static/js/787.92ace909.chunk.js": "/valmas-cremas/static/js/787.92ace909.chunk.js",
     "static/media/cocoCropped.png": "/valmas-cremas/static/media/cocoCropped.0cdd9d91b390f3e09f84.png",
     "static/media/valmas-logo.png": "/valmas-cremas/static/media/valmas-logo.51baaf3339749f8ff9ad.png",
@@ -15,10 +15,10 @@
     "static/media/coconut2.jpeg": "/valmas-cremas/static/media/coconut2.0510381a83677aed0989.jpeg",
     "static/media/sig.png": "/valmas-cremas/static/media/sig.5b335cfe576b51744c9c.png",
     "index.html": "/valmas-cremas/index.html",
-    "main.520cca1d.js.map": "/valmas-cremas/static/js/main.520cca1d.js.map",
+    "main.8f82cd0f.js.map": "/valmas-cremas/static/js/main.8f82cd0f.js.map",
     "787.92ace909.chunk.js.map": "/valmas-cremas/static/js/787.92ace909.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.520cca1d.js"
+    "static/js/main.8f82cd0f.js"
   ]
 }
